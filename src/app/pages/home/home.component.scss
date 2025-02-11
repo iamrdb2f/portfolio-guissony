@@ -1,0 +1,36 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+  
+    .brand {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #e6e6e6;
+    }
+  
+    p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+  
+    .btn {
+      background: #333333;
+      color: #ffffff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+  
+    .btn:hover {
+      background: #e6e6e6;
+      color: #000000;
+    }
+  }
+  
