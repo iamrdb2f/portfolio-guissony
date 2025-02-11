@@ -1,1 +1,87 @@
-/* You can add global styles to this file, and also import other style files */
+// Import Bootstrap et FontAwesome (si nécessaire)
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "font-awesome/css/font-awesome.min.css";
+
+// Variables de couleur
+$primary-bg: #5a7581; // Fond principal
+$secondary-bg: #27333f; // Fond des éléments secondaires (Navbar, Footer)
+$text-primary: #E6E6E6; // Texte principal (logo et menu)
+$text-secondary: #CCCCCC; // Texte plus discret
+$accent-color: #FFFFFF; // Couleur des interactions
+$border-color: #000000; // Séparations
+
+// Style global
+body {
+  background-color: $primary-bg;
+  color: $text-primary;
+  font-family: "Roboto Black", sans-serif;
+  margin: 0;
+}
+
+// Navbar
+.navbar {
+  background-color: $secondary-bg;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  background-color: $secondary-bg;
+
+  .logo {
+    font-weight: bolder;
+    font-size: 24px;
+    color: $text-primary;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+
+    li {
+      margin: 15px 15px;
+
+      a {
+        text-decoration: none;
+        color: $text-primary;
+        font-weight: lighter;
+        font-size: 12px;
+        transition: color 0.3s ease-in-out;
+
+        &:hover {
+          color: $accent-color;
+        }
+      }
+    }
+  }
+}
+
+// Footer
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: $secondary-bg;
+  color: $text-secondary;
+  font-size: 14px;
+
+  a {
+    color: $text-primary;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
+}
+
+// Supprimer le padding rouge
+* {
+  outline: none !important;
+}
