@@ -1,17 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeModule } from './pages/home/home.module';
-import { PortfolioModule } from './pages/portfolio/portfolio.module';
-import { BlogModule } from './pages/blog/blog.module';
-import { AboutModule } from './pages/about/about.module';
-import { ContactModule } from './pages/contact/contact.module';
+import { HomeComponent } from './pages/home/home.component'; // Ajout
 
 const routes: Routes = [
-  { path: 'home', component: HomeModule }, // Route pour la page d'Accueil
-  { path: 'portfolio', component: PortfolioModule }, // Route pour le Aortfolio
-  { path: 'blog', component: BlogModule }, // Route pour le blog
-  { path: 'about', component: AboutModule }, // Route pour la page About
-  { path: 'contact', component: ContactModule } // Route pour la page Contact
+  { path: '', component: HomeComponent }, // Page d'accueil
+  { path: 'home', component: HomeComponent },
+  { path: 'portfolio', loadChildren: () => import('./pages/portfolio/portfolio.module').then(m => m.PortfolioModule) },
+  { path: 'blog', loadChildren: () => import('./pages/blog/blog.module').then(m => m.BlogModule) },
+  { path: 'about', loadChildren: () => import('./pages/about/about.module').then(m => m.AboutModule) },
+  { path: 'contact', loadChildren: () => import('./pages/contact/contact.module').then(m => m.ContactModule) }
 ];
 
 @NgModule({
