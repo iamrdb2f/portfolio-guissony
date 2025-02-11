@@ -66,14 +66,14 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "portfolio-guissony:build"
+            "buildTarget": "portfolio-guissony:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "portfolio-guissony:build:production"
+              "buildTarget": "portfolio-guissony:build:production"
             },
             "development": {
-              "browserTarget": "portfolio-guissony:build:development"
+              "buildTarget": "portfolio-guissony:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -81,7 +81,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "portfolio-guissony:build"
+            "buildTarget": "portfolio-guissony:build"
           }
         },
         "test": {
