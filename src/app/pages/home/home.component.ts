@@ -11,7 +11,7 @@ import {RouterLink} from "@angular/router";
   standalone: true
 })
 export class HomeComponent implements OnInit {
-  texts: string[] = ['JAVA & SPRING EXPERT', 'SELENIUM AUTOMATION SPECIALIST', 'ENKINS & DEVOPS ENTHUSIASTIC'];
+  texts: string[] = ['JAVA & SPRING EXPERT', 'SELENIUM AUTOMATION SPECIALIST', 'JENKINS & DEVOPS ENTHUSIASTIC'];
   currentText = '';
   currentIndex = 0;
   typingSpeed = 100;

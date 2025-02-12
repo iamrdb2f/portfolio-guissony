@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
+import {NgForOf} from "@angular/common";
 
 @Component({
   selector: 'app-competences',
-  imports: [],
   templateUrl: './competences.component.html',
   styleUrl: './competences.component.scss',
+  imports: [
+    NgForOf
+  ],
   standalone: true
 })
 
@@ -26,6 +29,7 @@ export class CompetencesComponent {
     { icon: 'devicon-docker-plain-wordmark', name: 'Docker' },
     { icon: 'devicon-git-plain-wordmark', name: 'Git' },
     { icon: 'devicon-github-original', name: 'GitHub' },
-    { icon: 'devicon-jira-plain-wordmark', name: 'Jira' }
+    { icon: 'devicon-jira-plain-wordmark', name: 'Jira' },
+    { icon: 'devicon-intellij-plain', name: 'IntelliJ IDEA' }
   ];
 }

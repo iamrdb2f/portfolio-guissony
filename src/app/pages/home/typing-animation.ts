@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
     "JENKINS & DEVOPS ENTHUSIASTIC"
   ];
   typingSpeed: number = 100;
-  erasingSpeed: number = 50;
+  erasingSpeed: number = 100;
   delayBetweenTexts: number = 2000;
   currentTextIndex: number = 0;
   currentText: string = "";
