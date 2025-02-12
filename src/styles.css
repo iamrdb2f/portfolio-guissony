@@ -25,7 +25,7 @@ body {
   transition: color 0.3s ease-in-out;
 }
 .navbar .container .logo:hover {
-  color: #FFFFFF;
+  color: #00FF00;
 }
 .navbar .container ul {
   display: flex;
@@ -42,7 +42,7 @@ body {
   transition: color 0.3s ease-in-out;
 }
 .navbar .container ul li a:hover {
-  color: #FFFFFF;
+  color: #00FF00;
 }
 
 footer {
@@ -58,7 +58,7 @@ footer a {
   transition: color 0.3s ease-in-out;
 }
 footer a:hover {
-  color: #FFFFFF;
+  color: #00FF00;
 }
 
 * {
