@@ -1,0 +1,85 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1A1A1A;
+}
+
+.contact-card {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #e6e6e6;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e6e6e6;
+}
+
+.role {
+  font-size: 1.2rem;
+  color: #00ff00;
+  margin-bottom: 1rem;
+}
+
+.social-icons {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #00ff00;
+}
+
+p {
+  font-size: 1rem;
+  color: #e6e6e6;
+  margin-bottom: 1.5rem;
+}
+
+.highlight {
+  color: #00ff00;
+  font-weight: bold;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 2px solid #00ff00;
+  color: #00ff00;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #00ff00;
+  color: #000000;
+}
+
+/*# sourceMappingURL=contact.component.css.map */

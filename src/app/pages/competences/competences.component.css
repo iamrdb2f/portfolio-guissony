@@ -1,0 +1,59 @@
+.competences {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #1A1A1A;
+  color: #E6E6E6;
+  padding: 20px;
+}
+.competences .brand {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #00FF00;
+  margin-bottom: 1rem;
+}
+.competences h2 {
+  font-size: 1.5rem;
+  color: #CCCCCC;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.competences .tech-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin-top: 2rem;
+}
+.competences .tech-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #2A2A2A;
+  border: 2px solid #00FF00;
+  border-radius: 8px;
+  padding: 20px;
+  width: 120px;
+  height: 120px;
+  font-size: 2.5rem;
+  color: #FFFFFF;
+  transition: transform 0.3s ease-in-out;
+}
+.competences .tech-cell:hover {
+  transform: scale(1.1);
+}
+.competences .tech-cell i {
+  font-size: 2.5rem;
+  color: #FFFFFF;
+}
+.competences .tech-cell p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #CCCCCC;
+}
+
+/*# sourceMappingURL=competences.component.css.map */

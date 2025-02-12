@@ -1,0 +1,11 @@
+<section class="competences">
+  <h1 class="brand">Mes Compétences</h1>
+  <h2>QA Automation, Java, Selenium, Jenkins, CI/CD, DevOps, Angular, Spring Boot...</h2>
+
+  <div class="tech-board">
+    <div class="tech-cell" *ngFor="let tech of techs">
+      <i [class]="tech.icon"></i>
+      <p>{{ tech.name }}</p>
+    </div>
+  </div>
+</section>

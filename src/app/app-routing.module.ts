@@ -1,21 +1,14 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
+import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+import { CompetencesComponent } from './pages/competences/competences.component';
+import { ServicesComponent } from './pages/services/services.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'home', component: HomeComponent },
-  { path: 'competences', loadChildren: () => import('./pages/competences/competences.module').then(m => m.CompetencesModule) },
-  { path: 'services', loadChildren: () => import('./pages/services/services.module').then(m => m.ServicesModule) },
-  { path: 'portfolio', loadChildren: () => import('./pages/portfolio/portfolio.module').then(m => m.PortfolioModule) },
-  { path: 'blog', loadChildren: () => import('./pages/blog/blog.module').then(m => m.BlogModule) },
-  { path: 'about', loadChildren: () => import('./pages/about/about.module').then(m => m.AboutModule) },
-  { path: 'contact', loadChildren: () => import('./pages/contact/contact.module').then(m => m.ContactModule) },
-  { path: '**', redirectTo: '', pathMatch: 'full' } // Redirection vers l'accueil en cas de mauvaise URL
+  { path: 'portfolio', component: PortfolioComponent },
+  { path: 'competences', component: CompetencesComponent },
+  { path: 'services', component: ServicesComponent },
+  { path: 'contact', component: ContactComponent },
 ];
-
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
