@@ -1,13 +1,15 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ContactService } from 'src/app/services/contact.service';
+import {NgIf} from "@angular/common";
 
 @Component({
   selector: 'app-contact-form',
   templateUrl: './contact-form.component.html',
   styleUrl: './contact-form.component.scss',
   imports: [
-    FormsModule
+    FormsModule,
+    NgIf
   ],
   standalone: true
 })
