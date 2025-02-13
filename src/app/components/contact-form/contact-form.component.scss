@@ -1,0 +1,70 @@
+.contact {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #1A1A1A;
+  color: #E6E6E6;
+  padding: 20px;
+
+  .brand {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00FF00;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    color: #CCCCCC;
+    margin-bottom: 2rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    background: #2A2A2A;
+    padding: 20px;
+    border-radius: 8px;
+
+    .form-group {
+      width: 100%;
+      margin-bottom: 15px;
+
+      input, textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #00FF00;
+        background: #1A1A1A;
+        color: #FFFFFF;
+        border-radius: 5px;
+      }
+    }
+
+    .btn-primary {
+      padding: 10px 20px;
+      background-color: #00FF00;
+      color: #1A1A1A;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #CCCCCC;
+      }
+    }
+  }
+  .confirmation-message {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #00FF00; // ✅ Vert pour succès
+    text-align: center;
+  }
+}

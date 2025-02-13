@@ -5,11 +5,10 @@ import { ContactComponent } from './contact.component';
 
 
 @NgModule({
-  declarations: [
-    ContactComponent
-  ],
+  declarations: [],
   imports: [
-    CommonModule
+    CommonModule,
+    ContactComponent
   ]
 })
 export class ContactModule { }
