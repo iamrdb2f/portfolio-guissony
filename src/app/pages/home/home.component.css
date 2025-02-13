@@ -10,38 +10,47 @@
   padding: 20px;
 }
 .home .brand {
-  font-size: 7rem;
+  font-size: 6rem; /* Augmente la taille du titre */
   font-weight: bold;
   color: #00FF00;
-  margin-bottom: 0.5rem;
-}
-.home h2 {
-  font-size: 1.7rem;
-  color: #CCCCCC;
-  font-weight: 500;
   margin-bottom: 1rem;
 }
+.home h2 {
+  font-size: 2rem; /* Augmente la taille du sous-titre */
+  font-weight: 100;
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto;
+  color: #CCCCCC;
+  line-height: 1.5;
+}
 .home .dynamic-container {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   margin: 1rem 0;
   color: #FFFFFF;
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto;
 }
 .home .dynamic-text {
   color: #00FF00;
   font-weight: bold;
   display: inline-block;
 }
-.home p {
-  font-size: 1.2rem;
-  max-width: 800px;
-  margin-top: 1.5rem;
-  color: #CCCCCC;
+.home .intro {
+  font-size: 1.1rem;
+  max-width: 850px;
+  font-weight: 100;
+  text-align: center;
+  margin: 20px auto;
   line-height: 1.6;
+  color: #CCCCCC;
 }
 .home .btn-primary {
   margin-top: 2rem;
-  padding: 12px 24px;
+  padding: 14px 28px;
+  font-size: 1.2rem;
   background-color: #00FF00;
   color: #1A1A1A;
   font-weight: bold;

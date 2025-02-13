@@ -10,24 +10,30 @@
   padding: 20px;
 
   .brand {
-    font-size: 7rem;
+    font-size: 6rem; /* Augmente la taille du titre */
     font-weight: bold;
     color: #00FF00;
-    margin-bottom: 0.5rem;
-  }
-
-  h2 {
-    font-size: 1.7rem;
-    color: #CCCCCC;
-    font-weight: 500;
     margin-bottom: 1rem;
   }
 
+  h2 {
+    font-size: 2rem; /* Augmente la taille du sous-titre */
+    font-weight: 100;
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    color: #CCCCCC;
+    line-height: 1.5;
+  }
+
   .dynamic-container {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     margin: 1rem 0;
     color: #FFFFFF;
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
   }
 
   .dynamic-text {
@@ -36,17 +42,20 @@
     display: inline-block;
   }
 
-  p {
-    font-size: 1.2rem;
-    max-width: 800px;
-    margin-top: 1.5rem;
-    color: #CCCCCC;
+  .intro {
+    font-size: 1.1rem;
+    max-width: 850px;
+    font-weight: 100;
+    text-align: center;
+    margin: 20px auto;
     line-height: 1.6;
+    color: #CCCCCC;
   }
 
   .btn-primary {
     margin-top: 2rem;
-    padding: 12px 24px;
+    padding: 14px 28px;
+    font-size: 1.2rem;
     background-color: #00FF00;
     color: #1A1A1A;
     font-weight: bold;
