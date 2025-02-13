@@ -1,27 +1,47 @@
-# PortfolioGuissony
+# MY PORTFOLIO BASIC DEVELOPMENT APP
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
+This is a personal portfolio web application built with modern web technologies.
 
-## Development server
+## 🚀 Technologies Used
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Angular**: 16.2.6
+- **TypeScript**: 5.x
+- **SCSS**: Styling
+- **EmailJS**: Email service integration
+- **Bootstrap**: UI components
+- **FontAwesome**: Icons
 
-## Code scaffolding
+## 📌 Setup & Development
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clone the repository
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Run the development server:
+   ```sh
+   ng serve
+   ```
+   Navigate to `http://localhost:4200/`
 
-## Build
+## 🏗️ Build & Deployment
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To generate a production-ready build:
+```sh
+ng build --configuration production
+```  
 
-## Running unit tests
+## ✅ Testing
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Unit Tests:
+  ```sh
+  ng test
+  ```
+- End-to-End Tests:
+  ```sh
+  ng e2e
+  ```
 
-## Running end-to-end tests
+## 📖 More Information
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+For detailed documentation, refer to the [Angular CLI Guide](https://angular.io/cli).  
